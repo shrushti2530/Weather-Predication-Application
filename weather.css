@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #222;
+}
+
+.card {
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg, #00feba, #6d5be4);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    height: 500px;
+    margin-bottom: 100px;
+    margin-top: 2%;
+
+}
+
+button {
+    background: none;
+
+    border: none;
+
+    padding: 0;
+
+    cursor: pointer;
+
+}
+
+button img {
+    width: 20px;
+
+    height: 20px;
+
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.search input {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 50px;
+    align-items: center;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 15px;
+
+
+}
+
+.search button {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.search button img {
+    width: 16px;
+}
+
+img {
+    width: 50%;
+
+    height: auto;
+
+    margin-right: 10px;
+
+    vertical-align: middle;
+
+    margin-left: 25%;
+    margin-top: 5%
+}
+
+.temp {
+    font-size: 2rem;
+
+    color: #333;
+
+    margin: 0;
+
+
+    vertical-align: middle;
+
+    text-align: center;
+    margin-top: 3%;
+}
+
+.City {
+    font-size: 1.5rem;
+    /* Set desired size for city text */
+    color: #666;
+    /* Adjust text color */
+    margin: 5px 0 0;
+    /* Adjust top margin for spacing */
+    text-align: center;
+    margin-top: 2%;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-top: 5%;
+    gap: 0;
+}
+
+.weather-icon{
+    width:170px;
+    margin-top: 30px;
+}
+.weather h1{
+    font-size: 35px;
+    font-weight:500;
+}
+.weather h2{
+    font-size: 20px;
+    font-weight:400;
+    margin-top: 10px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.col1 {
+    display: flex; 
+    align-items: center; 
+    gap: 12px; 
+    margin-bottom: 15px; 
+
+}
+.col1 img, .col2 img {
+    width: 40px; /* Set width for icons */
+    height: auto; /* Maintain aspect ratio */
+}
+.col2 img
+{
+    width: 80px; /* Set width for icons */
+    height: auto; /* Maintain aspect ratio */
+    margin-left:40%;
+}
+
+.humidity, .Wind {
+    font-size: 0.8rem; /* Adjust text size for humidity and wind values */
+    font-weight: bold; /* Make the values bold */
+    margin: 0; /* Remove default margin */
+}
+.Wind{
+    white-space: nowrap; /* Prevents wrapping */
+    display: inline-block; /* Ensures it stays together */
+}
+
+
+
+.col1 p, .col2 p {
+    margin: 2px 0; /* Small margin between text elements */
+    color: #555; /* Adjust text color */
+    gap: 10%;
+}
+
+.col2 {
+    display: flex; 
+    align-items: center; 
+    gap: 12px; 
+    margin-bottom: 15px; 
+    margin-right: 12%;
+
+}
+   
